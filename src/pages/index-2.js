@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
-import NavOne from "../components/NavOne";
+import NavTwo from "../components/NavTwo";
 import Footer from "../components/Footer";
-import Banner from "../components/Banner";
+import BannerTwo from "../components/BannerTwo";
 import Features from "../components/Features";
 import Video from "../components/Video";
 import CallToAction from "../components/CallToAction";
@@ -16,10 +16,10 @@ import Faq from "../components/Faq";
 import NewsHome from "../components/NewsHome";
 import Subscribe from "../components/Subscribe";
 
-const HomePage = () => (
-  <Layout pageTitle="Roland Burke - Product Manager">
-    <NavOne />
-    <Banner />
+const HomePageTwo = () => (
+  <Layout pageTitle="Dimon - Home 2">
+    <NavTwo />
+    <BannerTwo />
     <Features />
     <Video />
     <CallToAction />
@@ -36,4 +36,4 @@ const HomePage = () => (
   </Layout>
 );
 
-export default HomePage;
+export default HomePageTwo;

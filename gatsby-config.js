@@ -1,7 +1,14 @@
 module.exports = {
-  siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "gatsbyjs",
-  },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`
+      }
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
+  ]
 };
