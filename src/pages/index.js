@@ -4,7 +4,6 @@ import NavOne from "../components/NavOne";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import Features from "../components/Features";
-import Video from "../components/Video";
 import CallToAction from "../components/CallToAction";
 import CallToActionTwo from "../components/CallToActionTwo";
 import Pricing from "../components/Pricing";
@@ -21,7 +20,6 @@ const HomePage = () => (
     <NavOne />
     <Banner />
     <Features />
-    <Video />
     <CallToAction />
     <CallToActionTwo />
     <Pricing />

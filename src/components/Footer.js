@@ -50,12 +50,12 @@ export default class Blog extends Component {
                       className="footer-widget__logo"
                     />
                     <p className="footer-widget__contact">
-                      <a href="tel:888-666-0000">888 666 0000</a>
+                      <a href=""></a>
                     </p>
 
                     <p className="footer-widget__contact">
-                      <a href="mailto:needhelp@example.com">
-                        needhelp@example.com
+                      <a href="#">
+                        burke.roland@gmail.com
                       </a>
                     </p>
                     <p className="footer-widget__contact">
@@ -161,7 +161,7 @@ export default class Blog extends Component {
               <div className="inner-container text-center">
                 <p className="site-footer__copy">
                   &copy; copyright {new Date().getFullYear()} by{" "}
-                  <a href="#none">Layerdrops.com</a>
+                  <a href="#none"></a>
                 </p>
               </div>
             </div>
