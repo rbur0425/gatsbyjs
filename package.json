@@ -1,5 +1,5 @@
 {
-  "name": "dimon",
+  "name": "personal-blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "url-loader": "^4.0.0"
+  },
+  "resolutions": {
+    "sharp": "^0.29.0"
   }
 }

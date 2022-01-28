@@ -9,6 +9,14 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        // Defaults used for gatsbyImageData and StaticImage
+        defaults: {},
+        stripMetadata: true,
+        defaultQuality: 80,
+      },
+    },
   ]
 };

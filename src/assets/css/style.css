@@ -29,8 +29,8 @@
 */
 body {
   font-family: "Rubik";
-  color: #74727a;
-  font-size: 18px;
+  color: --grey-dark;
+  font-size: 24px;
   line-height: 34px;
 }
 
@@ -612,9 +612,9 @@ a:visited {
 }
 .banner-one__text {
   margin: 0;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 36px;
-  color: #74727a;
+  color: --grey-dark;
   margin-top: 25px;
   margin-bottom: 40px;
 }
@@ -624,7 +624,7 @@ a:visited {
 .banner-one__moc {
   position: absolute;
   bottom: 7%;
-  right: -30px;
+  right: 0px;
 }
 .banner-one__moc:before {
   content: "";

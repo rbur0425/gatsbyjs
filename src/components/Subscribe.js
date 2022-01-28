@@ -6,7 +6,7 @@ const Subscribe = () => {
       <div className="container">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            Subscribe Our <span>Newsletter</span> <br /> to Get New Updates.
+            Subscribe To My Newsletter <br /> Where I Share My Thoughts on <br /> Product, SaaS, Design and Tech
           </h2>
         </div>
         <form

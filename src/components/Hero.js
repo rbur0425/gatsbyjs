@@ -1,6 +1,6 @@
 import React from "react";
-import BannerMoc from "../assets/images/mocs/banner-moc-1-1.png";
-const Banner = () => {
+import HeroImage from "../assets/images/hero-image.jpeg";
+const Hero = () => {
   return (
     <section className="banner-one" id="banner">
       <span className="banner-one__shape-1"></span>
@@ -9,21 +9,21 @@ const Banner = () => {
       <span className="banner-one__shape-4"></span>
       <div className="container">
         <div className="banner-one__moc">
-          <img src={BannerMoc} alt="alter text" />
+          <img src={HeroImage} alt="Roland" />
         </div>
         <div className="row">
           <div className="col-xl-6 col-lg-8">
             <div className="banner-one__content">
               <h3 className="banner-one__title">
-                Hello! I am the<br />
-                <span>Product</span> Leader <br /> You Need.
+              👋 Hi! I'm a <br />
+                Product Leader
               </h3>
               <p className="banner-one__text">
-                I am a developer that moved into the product space.<br />{" "}
-                I am passionate about exceptional user experience and <br /> bringing
+                Mix of a developer, customer advocate
+                and entreprenuer all mixed into one. I help bring
                 products from idea to launch.
               </p>
-              <a href="#features" className="banner-one__btn thm-btn ">
+              <a href="#aboutme" className="banner-one__btn thm-btn ">
                 <span>Learn More</span>
               </a>
             </div>
@@ -33,4 +33,4 @@ const Banner = () => {
     </section>
   );
 };
-export default Banner;
+export default Hero;

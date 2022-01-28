@@ -41,114 +41,29 @@ export default class Blog extends Component {
           <div className="site-footer__upper">
             <div className="container">
               <div className="row">
-                <div className="col-lg-3">
-                  <div className="footer-widget footer-widget__about">
-                    <img
-                      src={darkLogo}
-                      width="119"
-                      alt=""
-                      className="footer-widget__logo"
-                    />
-                    <p className="footer-widget__contact">
-                      <a href=""></a>
-                    </p>
-
-                    <p className="footer-widget__contact">
-                      <a href="#">
-                        burke.roland@gmail.com
-                      </a>
-                    </p>
-                    <p className="footer-widget__contact">
-                      855 road, broklyn street <br /> new york 600
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6 d-flex justify-content-between footer-widget__links-wrap">
-                  <div className="footer-widget">
-                    <h3 className="footer-widget__title">Explore</h3>
-                    <ul className="footer-widget__links list-unstyled">
-                      <li>
-                        <a href="#none">About</a>
-                      </li>
-                      <li>
-                        <a href="#none">Our Team</a>
-                      </li>
-                      <li>
-                        <a href="#none">Features</a>
-                      </li>
-                      <li>
-                        <a href="#none">Blog</a>
-                      </li>
-                      <li>
-                        <a href="#none">How It Works</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="footer-widget">
-                    <h3 className="footer-widget__title">Services</h3>
-                    <ul className="footer-widget__links list-unstyled">
-                      <li>
-                        <a href="#none">Speed Optimization </a>
-                      </li>
-                      <li>
-                        <a href="#none">Marketing Analysis </a>
-                      </li>
-                      <li>
-                        <a href="#none">SEO and Backlinks </a>
-                      </li>
-                      <li>
-                        <a href="#none">Content Marketing</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="footer-widget">
-                    <h3 className="footer-widget__title">Links</h3>
-                    <ul className="footer-widget__links list-unstyled">
-                      <li>
-                        <a href="#none">Help </a>
-                      </li>
-                      <li>
-                        <a href="#none">Support </a>
-                      </li>
-                      <li>
-                        <a href="#none">Clients </a>
-                      </li>
-                      <li>
-                        <a href="#none">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-lg-3">
-                  <div className="footer-widget">
+                <div className="col-lg-12 text-center">
+                  <div className="footer-widget d-flex justify-content-center">
                     <div className="site-footer__social">
                       <a
-                        href="#s-link"
+                        href="https://www.linkedin.com/in/roland-b-76a94a160/"
                         aria-label="social icon"
                         aria-hidden="true"
                       >
-                        <i className="fa fa-facebook-square"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                       <a
-                        href="#none"
+                        href="https://twitter.com/rjburkejr"
                         aria-label="social icon"
                         aria-hidden="true"
                       >
                         <i className="fa fa-twitter"></i>
                       </a>
                       <a
-                        href="#none"
+                        href="https://github.com/rbur0425"
                         aria-label="social icon"
                         aria-hidden="true"
                       >
-                        <i className="fa fa-instagram"></i>
-                      </a>
-                      <a
-                        href="#none"
-                        aria-label="social icon"
-                        aria-hidden="true"
-                      >
-                        <i className="fa fa-pinterest-p"></i>
+                        <i className="fa fa-github"></i>
                       </a>
                     </div>
                   </div>
@@ -160,8 +75,7 @@ export default class Blog extends Component {
             <div className="container">
               <div className="inner-container text-center">
                 <p className="site-footer__copy">
-                  &copy; copyright {new Date().getFullYear()} by{" "}
-                  <a href="#none"></a>
+                  &copy; Copyright {new Date().getFullYear()}
                 </p>
               </div>
             </div>

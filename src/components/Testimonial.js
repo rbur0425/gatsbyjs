@@ -23,7 +23,7 @@ const Testimonial = () => {
       <div className="container">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            What Our <span>Clients</span> Say <br /> About Us.
+            What <span>Others</span> Are Saying <br />
           </h2>
         </div>
         <div className="testimonials-one__carousel-outer">
@@ -33,14 +33,10 @@ const Testimonial = () => {
                 <div className="testimonials-one__single">
                   <div className="testimonials-one__inner">
                     <p>
-                      This is due to their excellent service, competitive
-                      pricing and <br /> customer support. It’s throughly
-                      refresing to get such a personal <br /> touch. Duis aute
-                      irure dolor in reprehenderit.
+                    Roland was a great product guy at FormAssembly, he worked really well with his team, on a daily basis. He has a great technical understanding of software development but doesn't let this get in the way of good product management. He takes things in stride always with a healthy dose of humor, is hard working and a good communicator, with customers and internal employees. I really enjoyed working with Roland, he was a great addition to the team.
                     </p>
-                    <h3>Shirley Smith</h3>
-                    <span>Our Customers</span>
-                    <img src={testiImage1} alt="alter text" />
+                    <h3>Erik Dasque</h3>
+                    <span>FormAssembly</span>
                   </div>
                 </div>
               </div>
@@ -48,14 +44,10 @@ const Testimonial = () => {
                 <div className="testimonials-one__single">
                   <div className="testimonials-one__inner">
                     <p>
-                      This is due to their excellent service, competitive
-                      pricing and <br /> customer support. It’s throughly
-                      refresing to get such a personal <br /> touch. Duis aute
-                      irure dolor in reprehenderit.
+                    Roland was a great product owner at FormAssembly. He was great at understanding the technical details and the business value of what we were working on. He consistently advocated for quality and was able to deliver what he worked on. It was a pleasure working with Roland and I would recommend him as a strong technically-minded product leader.
                     </p>
-                    <h3>Shirley Smith</h3>
-                    <span>Our Customers</span>
-                    <img src={testiImage1} alt="alter text" />
+                    <h3>Liz Miner</h3>
+                    <span>FormAssembly</span>
                   </div>
                 </div>
               </div>
@@ -63,14 +55,10 @@ const Testimonial = () => {
                 <div className="testimonials-one__single">
                   <div className="testimonials-one__inner">
                     <p>
-                      This is due to their excellent service, competitive
-                      pricing and <br /> customer support. It’s throughly
-                      refresing to get such a personal <br /> touch. Duis aute
-                      irure dolor in reprehenderit.
+                    Roland's a great guy and client of mine! Had a good time working together on a campaign of his, using email to glean results out of the list he had. Would love to work together again anytime!
                     </p>
-                    <h3>Shirley Smith</h3>
-                    <span>Our Customers</span>
-                    <img src={testiImage1} alt="alter text" />
+                    <h3>Evn Teague</h3>
+                    <span>Freelance</span>
                   </div>
                 </div>
               </div>

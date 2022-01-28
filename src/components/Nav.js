@@ -53,12 +53,6 @@ export default class NavOne extends Component {
           <div className="container clearfix">
             <div className="logo-box clearfix">
               <a className="navbar-brand" href="/">
-                <img
-                  src={logoDark}
-                  className="main-logo"
-                  width="119"
-                  alt="alter text"
-                />
               </a>
               <button className="menu-toggler">
                 <span className="fa fa-bars"></span>
@@ -68,55 +62,19 @@ export default class NavOne extends Component {
               <ul className=" one-page-scroll-menu navigation-box">
                 <li className="current scrollToLink">
                   <a href="/">Home</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <a href="/">Home 01</a>
-                    </li>
-                    <li>
-                      <a href="/index-2">Home 02</a>
-                    </li>
-                    <li>
-                      <a href="#none">Header Versions</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="/">Header 01</a>
-                        </li>
-                        <li>
-                          <a href="/index-2">Header 02</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
                 </li>
                 <li className="scrollToLink">
-                  <a href="#features">Features</a>
+                  <a href="#aboutme">About Me</a>
                 </li>
                 <li className="scrollToLink">
-                  <a href="#video">Video</a>
+                  <a href="#projects">Projects</a>
                 </li>
                 <li className="scrollToLink">
-                  <a href="#pricing">Pricing</a>
-                </li>
-                <li className="scrollToLink">
-                  <a href="#screenshots">App Screenshots</a>
-                </li>
-                <li className="scrollToLink">
-                  <a href="#news">News</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/news">News</Link>
-                    </li>
-                    <li>
-                      <Link to="/news-details">News Details</Link>
-                    </li>
-                  </ul>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
             <div className="right-side-box">
-              <a className="thm-btn header__cta-btn" href="#none">
-                <span>Login</span>
-              </a>
             </div>
           </div>
         </nav>
