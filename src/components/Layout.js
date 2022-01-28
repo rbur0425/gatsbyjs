@@ -20,6 +20,9 @@ const Layout = (props) => {
           href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
           rel="stylesheet"
         />
+        <link href="//cdn-images.mailchimp.com/embedcode/naked-10_7_dtp.css" 
+        rel="stylesheet" 
+        type="text/css"></link>
       </Helmet>
 
       <div className="page-wrapper">{props.children}</div>
